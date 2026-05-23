@@ -1,35 +1,30 @@
-# University Registration System
+# Systeme d'Inscription Universitaire
 
-A Python program that simulates a university registration system for students and teachers.
+Un programme simple en Python pour gerer les etudiants et professeurs.
 
-## Classes
+## Structure
 
-- **Person** — parent class with common attributes (name, firstname, age, is_active)
-- **Student(Person)** — child class with field, level, average, student_id
-- **Teacher(Person)** — child class with subjects, grade, hourly_rate, hours_per_week
+```
+models/
+  - person.py    -> classe Person
+  - student.py   -> classe Student
+  - teacher.py   -> classe Teacher
 
-## Features
+functions.py   -> fonctions utiles
+main.py        -> programme principal
+```
 
-- Input validation with while loop and try/except
-- Inheritance with super().__init__()
-- Magic method __str__()
-- @staticmethod for student mention calculation
-- Registration summary screen
-
-## How to run
+## Comment utiliser
 
 ```bash
 python main.py
 ```
 
-## Authors
+## Fonctionnalites
 
-- YABRE Amma — Person class
-- SAWADOGO Asseta — Student class
-- ZONG0 P J Lanndry — Teacher class and Input functions
-- SAWADOGO Sandrine — Main function
-- ZONGO P J Malkiram — README
-
-## Course
-
-PRG1406 — Advanced Programming | Burkina Institute of Technology | May 2026
+- Ajouter des etudiants
+- Ajouter des professeurs
+- Ajouter des cours aux etudiants
+- Ajouter des cours aux professeurs
+- Voir la liste des etudiants
+- Voir la liste des professeurs
