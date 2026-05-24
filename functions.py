@@ -1,5 +1,5 @@
 def register_student():
-    print("\n=== Enregistrer un etudiant ===")
+    print("\n=== Register a Student ===")
     firstname = input("First name: ")
     name = input("Last name: ")
     
@@ -44,7 +44,7 @@ def register_student():
 
 
 def register_teacher():
-    print("\n=== Enregistrer un professeur ===")
+    print("\n=== Register a Teacher ===")
     firstname = input("First name: ")
     name = input("Last name: ")
     
