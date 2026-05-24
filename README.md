@@ -5,6 +5,7 @@ for students and teachers.
 
 ## Project Structure
 
+```
 uni-registration-system/
 ├── models/
 │   ├── __init__.py
@@ -14,6 +15,7 @@ uni-registration-system/
 ├── functions.py       # Registration functions
 ├── main.py            # Entry point
 └── README.md
+```
 
 ## Classes
 
